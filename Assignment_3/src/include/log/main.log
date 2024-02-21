@@ -1,0 +1,24 @@
+                     DATE/TIME                   MESSAGE/VARIABLE                               DATA
+  21-02-2024 23:08:22:695:627           Created pipe server2watch                                 -
+  21-02-2024 23:08:22:695:806               Created pipe UI2watch                                 -
+  21-02-2024 23:08:22:695:877            Created pipe drone2watch                                 -
+  21-02-2024 23:08:22:695:944           Created pipe watch2server                                 -
+    21-02-2024 23:08:22:696:8               Created pipe watch2UI                                 -
+   21-02-2024 23:08:22:696:74            Created pipe watch2drone                                 -
+  21-02-2024 23:08:22:696:138              Created pipe UI2server                                 -
+  21-02-2024 23:08:22:696:202              Created pipe server2UI                                 -
+  21-02-2024 23:08:22:696:266           Created pipe drone2server                                 -
+  21-02-2024 23:08:22:696:331           Created pipe server2drone                                 -
+  21-02-2024 23:08:22:696:396             Created pipe UI_receive                                 -
+  21-02-2024 23:08:22:696:460          Created pipe drone_receive                                 -
+  21-02-2024 23:08:22:696:524        Created pipe targets2watchfd                                 -
+  21-02-2024 23:08:22:696:591        Created pipe watch2targetsfd                                 -
+  21-02-2024 23:08:22:696:656       Created pipe server2UItargetY                                 -
+  21-02-2024 23:08:22:696:720       Created pipe server2UItargetX                                 -
+  21-02-2024 23:08:22:696:785      Created pipe obstacles2watchfd                                 -
+  21-02-2024 23:08:22:696:848      Created pipe watch2obstaclesfd                                 -
+  21-02-2024 23:08:22:696:912    Created pipe server2UIobstaclesY                                 -
+  21-02-2024 23:08:22:696:977    Created pipe server2UIobstaclesX                                 -
+   21-02-2024 23:08:22:697:41 Created pipe server2droneobstaclesY                                 -
+  21-02-2024 23:08:22:697:113 Created pipe server2droneobstaclesX                                 -
+  21-02-2024 23:08:22:697:178          Created pipe UI2serverdone                                 -
