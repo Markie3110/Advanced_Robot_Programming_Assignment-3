@@ -1,0 +1,11 @@
+                     DATE/TIME                   MESSAGE/VARIABLE                               DATA
+  13-02-2024 03:27:57:648:595                         Targets PID                              26888
+  13-02-2024 03:27:57:648:662                sent pid to watchdog                                 -
+  13-02-2024 03:28:03:268:158               received watchdog pid                                 -
+  13-02-2024 03:28:03:268:180                        watchdog_pid                              26856
+  13-02-2024 03:28:03:268:199                       Opened socket                                 -
+  13-02-2024 03:28:03:268:252                 Connected to server                                 -
+  13-02-2024 03:28:03:268:268                          ID message                                 TI
+  13-02-2024 03:28:03:268:294                     Sent ID message                                 -
+  13-02-2024 03:28:03:386:249                   Error: Wrong echo                            Success
+  13-02-2024 03:28:03:386:279                       Wrong ID echo                               ÿÿÿÿ
