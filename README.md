@@ -125,6 +125,10 @@ The keys represent the following movements for the drone
 
 Improvements compared to the previous assignment
 ----------------------
+The following improvements were implemented as compared to the previous assignment:
+* During testing, it was observed that the processes (especially the objects process in the client) were not respecting the time intervals that they were required to wait for. It was realised that the continous interruption of `usleep()` by the watchdog, effectively rendered the system call useless. This problem was not observed in prior assignments as all the processes effectively ran at the same rates that the signals were transmitted at by the watchdog, due to which the intervals were still being respected in most cases. As such `usleep()` was replaced with `nanosleep()`, that could now save the time remaining post interruption until the next iteration of a process loop had to be executed.
+* Created two functions, `block_signal()` and `unblock_signal()`, that are used by all processes to block and then unblock critical sections of code from the watchdogs interrupts. Implemented after the socket read/writes were being constantly interrupted by the watchdog.
+* Although not critical, it was seen to be a good practice to utilize the `volatile sig_atomic_t` datatype to denote the flag variables that were updated solely within the signal handlers, so as to prevent the compiler from storing the variables in the cache.
 
 
 Known Errors
