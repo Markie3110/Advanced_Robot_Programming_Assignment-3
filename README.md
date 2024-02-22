@@ -52,13 +52,26 @@ The watchdog is the process that oversees the overall system behaviour by observ
 Targets is the process that generates a random number of goals/prizes for the drone to catch. Both the target count and position, is created by seeding the `srandom()` function using the current time, and then subsequently extracting the required random numbers using `random()`. In this iteration, targets is also one of the clients that interacts with the server on the other computer using sockets. The server address, as well as the port number, are given at the time of program execution. Once the necessary target positions have been computed, the targets process transmits them all to the server as per the protocol specified above. The process runs in a loop, continously polling for an update from the server using the `select()` function, that will either request for a new set of targets or be a command to terminate.
 
 ### Obstacles ###
+Obstacles is the process that generates a random number of obstacles that will repulse the drone. Like targets, it too uses the `srandom()` and `random()` functions to randomly generate the obstacle count and positions. Similarly, like targets, it is the other client that interacts with the server. Unlike targets however, the obstacle continously generates a new set of obstacle positions within a time period that is specified by the user. This process, will continue to run until it receives a command from the server to terminate.
 
+### Parameters ###
+The parameter file contains a set of constants that are used by the processes, stored in one compact location.
 
-
+### Log ###
+The log parameter file defines the functions `logopen()`, `logmessage()`, `logint()`, `logdouble()`, `logstring()` and `logerror()`, that opens a logfile and logs either a message, datatype or error to it. This parameter file was created so as to simplify data logging and program debugging, where the following within the processes, thus avoiding the need to clutter the primary files with repeated code, as well as to allow the programmer to log data of choice in a single line. The log files can be found via the following path: 'Assignment_3/src/include/log/'.
 
 Installation
 ----------------------
+The core content of the project can be found in the folder "Assignment_3". To download the repository's contents to your local system you can do one of the following:
 
+1. Using git from your local system<br>
+To download the repo using git simply go to your terminal and go to a desired directory in which you wish to save the project in. Type the following command to clone the repository:
+```bash
+$ git clone "https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3.git"
+```
+
+2. Download the .zip from Github<br>
+In a browser go to the repository on Github and download the .zip file available in the code dropdown box found at the top right. Unzip the file to access the contents and store the Assignment_3 folder in a directory of your choice.<br><br>
 
 How to Run
 ----------------------
