@@ -8,14 +8,14 @@ The following repository contains the solution to the third assignment for the "
 
 Table of Contents
 ----------------------
-1. [Prerequisite Information]()
-2. [Architecture]()
-3. [Overview]()
-4. [Installation]()
-5. [How to Run]()
-6. [Operational instructions]()
-7. [Improvements compared to the previous assignment]()
-8. [Known Errors]()
+1. [Prerequisite Information](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#prerequisite-information)
+2. [Architecture](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#architecture)
+3. [Overview](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#overview)
+4. [Installation](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#installation)
+5. [How to Run](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#how-to-run)
+6. [Operational instructions](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#operational-instructions)
+7. [Improvements compared to the previous assignment](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#improvements-compared-to-the-previous-assignment)
+8. [Known Errors](https://github.com/Markie3110/Advanced_Robot_Programming_Assignment-3?tab=readme-ov-file#known-errors)
 
 
 Prerequisite Information
