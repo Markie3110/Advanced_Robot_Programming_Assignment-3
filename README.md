@@ -61,7 +61,7 @@ Obstacles is the process that generates a random number of obstacles that will r
 The parameter file contains a set of constants that are used by the processes, stored in one compact location.
 
 ### Log ###
-The log parameter file defines the functions `logopen()`, `logmessage()`, `logint()`, `logdouble()`, `logstring()` and `logerror()`, that opens a logfile and logs either a message, datatype or error to it. This parameter file was created so as to simplify data logging and program debugging, where the following within the processes, thus avoiding the need to clutter the primary files with repeated code, as well as to allow the programmer to log data of choice in a single line. The log files can be found via the following path: 'Assignment_3/src/include/log/'.
+The log parameter file defines the functions `logopen()`, `logmessage()`, `logint()`, `logdouble()`, `logstring()` and `logerror()`, that opens a logfile and logs either a message, datatype or error to it. This parameter file was created so as to simplify data logging and program debugging, thus avoiding the need to clutter the primary files with repeated code, as well as to allow the programmer to log data of choice in a single line. The log files can be found via the following path: 'Assignment_3/src/include/log/'.
 
 Installation
 ----------------------
