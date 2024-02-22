@@ -25,6 +25,7 @@ A document (called Protocol.pdf) describing the protocol used for client-server 
 
 Architecture
 ----------------------
+Shown here is the software architecture of the entire system depiciting the relationships among the processes, as well as the interprocess communications used in their interaction.
 
 
 
