@@ -20,7 +20,7 @@ Table of Contents
 
 Prerequisite Information
 ----------------------
-
+A document (called Protocol.pdf) describing the protocol used for client-server communication can be found in the "Supplementary Material" directory above. It describes in detail the manner in which the client and server are meant to interact with one another.
 
 
 Architecture
