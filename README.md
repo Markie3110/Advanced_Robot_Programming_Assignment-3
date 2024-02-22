@@ -75,7 +75,32 @@ In a browser go to the repository on Github and download the .zip file available
 
 How to Run
 ----------------------
+Before system execution, it is first necessary to move within the termial to the directory that contains the makefile.
+```bash
+cd Assignment_3/
+```
+The general command to run the system, for both the server and client, is as follows:
+```bash
+make TYPE={RUN TYPE} ADDRESS={SERVER ADDRESS} PORT={PORTNUMBER} SECONDS={OBJECT INTERVAL}
+```
+* `TYPE`: Specified whether a local run is a server or client. 'S' is given for server, 'C' for client.
+* `ADDRESS`: The IPV4 address that the server is being run on. Although only utilized only by the client, a dummy value (can be 1.2.3.4) still has to be given for the server as well.
+* `PORT`: The port the server and client should communicate through.
+* `SECONDS`: The time interval in seconds between which the object process creates a new set of positions. Care has to be taken that the value given is not set too low (preferably 5 seconds). Like the address, despite it being used by the client only, a dummy value (can be 1) has to be given when running the server.
+  
+### Example ###
+Given below is an example of how to run, both the server and client on a localhost (on the same computer). Do note, that two seperate but identical directories of the project have to be created for this, with one directory executing the server, and the other the client. Similarly, the commands given below should be executed from the appropriate directory.
+1. Server<br>
+The following creates a server on the port 9005. The values given for `ADDRESS` and `SECONDS` are ignored at the backend.
+```bash
+make TYPE=S ADDRESS=1.2.3.4 PORT=9005 SECONDS=1
+```
 
+2. Client <br>
+The following creates a client, that connected to the server on the localhost(127.0.0.1) and port(9005), and whose objects are created every 10 seconds.
+```bash
+make TYPE=C ADDRESS=127.0.0.1 PORT=9005 SECONDS=10
+```
 
 Operational instructions
 ----------------------
